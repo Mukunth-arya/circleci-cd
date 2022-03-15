@@ -3,7 +3,7 @@ jobs:
   build: 
     docker:
       - image: circleci/golang:1.15
-    working_directory: /mnt/e/.circleci
+    working_directory: /mnt/e/files1
   steps:
     - checkout
     - run: go test -v ./...
